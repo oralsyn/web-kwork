@@ -26,3 +26,9 @@ $('a.open-modal').click(function(event) {
   });
   return false;
 });
+
+// Маска ввода номера телефона (плагин maskedinput)
+$(function($){
+	$('[name="phone"]').mask("+7(999) 999-99-99");
+});
+
